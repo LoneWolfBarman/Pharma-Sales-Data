@@ -51,3 +51,7 @@ The report utilizes custom **Data Analysis Expressions (DAX)** ranging from base
 * **YoY Revenue Growth %:** `DIVIDE([Total Net Revenue] - [PY Net Revenue], [PY Net Revenue], 0)`
 * **Rolling 3-Month Moving Average:** `CALCULATE([Total Net Revenue], DATESINPERIOD(Dim_Date[Date], MAX(Dim_Date[Date]), -3, MONTH))`
 * **YTD Net Revenue:** `TOTALYTD([Total Net Revenue], Dim_Date[Date])`
+
+◉ Screenshot/Demo: 
+Show what the Dashboard looks like: [Alt text](https://github.com/LoneWolfBarman)
+Example: [Dashboard Preview](Pharma_Sales_Data.jpg)
